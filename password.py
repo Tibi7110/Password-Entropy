@@ -22,6 +22,5 @@ def verify_password_strength(password):
     bit = bit_length(password)
     length = len(password)
     entropy = bit * length
-    print(length)
     return math.floor(entropy)
 
